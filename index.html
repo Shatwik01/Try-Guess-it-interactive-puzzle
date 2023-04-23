@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="background-clip">
+        <source src="long trip.mp4" type="video/mp4">
+    </video>
+    
+    <div class="container">
+        <div class="box">
+            <h3><span class="span"></span>Register😊</h3>
+            <form action="connect.php" method="post">
+
+                <div class="input_box">
+                    <input type="text" id="Username"  class="form-control" name="username"/>
+                    <label>Add Username</label>
+                </div>
+                <div class="input_box">
+                    <input type="email" id="email"  class="form-control" name="email"/>
+                    <label>Add Email Id</label>
+                </div>
+                <div class="input_box">
+                    <input type="password" id="password" class="form-control" name="password"/>
+                    <label>Add passcode</label>
+                </div>
+                
+
+                <button type="submit">Let's play</button>
+                <div class="copyright">
+                    Copyright <b>&copy; Shatwik Webmaster. All Right reserved.</b>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script>
+    let span = document.querySelector(".span");
+    window.onload = function(){
+        span.style.width = "80px";
+    }
+</script>
+</html>
