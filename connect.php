@@ -6,7 +6,7 @@ $password = $_POST['password'];
 
 
 // Database connection
-$conn = new mysqli('localhost', 'id20634611_root', 'NHw[zD97Yg-RP]%i', 'id20634611_gameuser');
+$conn = new mysqli('...your host...', '...your db user name...', '...your db password...', '...your db name...');
 if ($conn->connect_error) {
     echo "$conn->connect_error";
     die("Connection Failed : " . $conn->connect_error);
